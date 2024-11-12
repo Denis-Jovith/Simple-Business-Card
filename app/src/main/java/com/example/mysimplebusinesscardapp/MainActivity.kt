@@ -54,7 +54,7 @@ fun MyFullApp(
             .fillMaxSize()
     ){
         LogoNameTitle(
-            "My First Business Card","Captain-D",
+            "My First Business Card","UnderCoverCompany",
             modifier = Modifier.fillMaxWidth()
                 .padding(bottom = 16.dp)
         )
@@ -67,21 +67,21 @@ fun MyFullApp(
         ){
             ContactInformation(
                 image = painterResource(R.drawable.mobile_16076069),
-                description = "+255 758548912",
+                description = "+255 892089120",
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(8.dp)
             )
             ContactInformation(
                 image = painterResource(R.drawable.browser_11370082),
-                description = "https://denisjovitusbuberwa.com",
+                description = "https://undercovercompany.com",
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(8.dp)
             )
             ContactInformation(
-                image = painterResource(R.drawable.email_8725723),
-                description = "denisjovitusbuberwa@gmail.com",
+                image = painterResource(R.drawable.mimiog),
+                description = "undercovercompany@gmail.com",
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(8.dp)
@@ -102,7 +102,7 @@ fun LogoNameTitle(name:String,
 
     ) {
         Image(
-            painter = painterResource(R.drawable.mimipic),
+            painter = painterResource(R.drawable.mimiog),
             contentDescription = null,
             modifier =modifier
                 .size(500.dp)
