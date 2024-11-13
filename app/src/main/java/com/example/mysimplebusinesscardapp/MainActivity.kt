@@ -1,5 +1,5 @@
 package com.example.mysimplebusinesscardapp
-
+//imports
 import android.media.Image
 import android.os.Bundle
 import androidx.activity.ComponentActivity
